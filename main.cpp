@@ -9,9 +9,9 @@ int main() {
     cin>>numero;
     numprimo(numero,1,conta);
     if(conta==0){
-        cout << "il numero e\' primo"<<endl;
+        cout << "numero primo"<<endl;
     }else{
-        cout<< "il numero non e\' primo"<<endl;
+        cout<< "numero non primo"<<endl;
     }
 
     return 0;
